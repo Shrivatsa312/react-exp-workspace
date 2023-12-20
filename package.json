@@ -1,0 +1,22 @@
+{
+  "name": "create-nx-react-express-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-nx-react-express-workspace": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrivatsa312/react-exp-workspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shrivatsa312/react-exp-workspace/issues"
+  },
+  "homepage": "https://github.com/Shrivatsa312/react-exp-workspace#readme"
+}
