@@ -1,4 +1,4 @@
-# nx-react-express-workspace
+# create-nx-react-express-workspace
 
 This package helps creating a workspace with _NX_ with _React_ and _Express_
 
