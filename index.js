@@ -38,14 +38,7 @@ try {
     stdio: "inherit",
   });
 
-  // Change to workspaceName directory
-  //   process.chdir(`./${workspaceName}`);
-  execSync(`cd ${workspaceName}`, { stdio: "inherit" });
-
-  // Install @nx/react and @nx/express
-  execSync("npm install @nx/react @nx/express");
-
-  // Create React app with nx
+  // Change to workspaceName directory and Create React app with nx
   execSync(
     `cd ${workspaceName} && mkdir apps && cd apps && npx nx g @nx/react:app ${clientAppName} --e2eTestRunner=cypress --style=styled-components --routing=true --bundler=vite`,
     { stdio: "inherit" }
